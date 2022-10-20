@@ -64,6 +64,7 @@ M.nvimtree = {
 	},
 
 	filters = {
+		custom = { "^.git$" },
 		exclude = { vim.fn.stdpath("config") .. "/lua/custom", "dist" },
 	},
 
