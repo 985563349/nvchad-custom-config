@@ -12,12 +12,13 @@ local sources = {
   b.formatting.prettier.with {
     filetypes = {
       "html",
-      "markdown",
       "css",
       "javascript",
       "javascriptreact",
       "typescript",
       "typescriptreact",
+      "yaml",
+      "markdown",
     },
   },
 
