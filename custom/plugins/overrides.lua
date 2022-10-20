@@ -63,6 +63,10 @@ M.nvimtree = {
     width = 30,
   },
 
+  filters = {
+    exclude = {vim.fn.stdpath "config" .. "/lua/custom", "dist"},
+  },
+
   git = {
     enable = true,
   },
