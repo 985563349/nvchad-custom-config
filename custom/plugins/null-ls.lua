@@ -20,6 +20,10 @@ local sources = {
       "yaml",
       "markdown",
     },
+
+    extra_args = {
+      "--single-quote",
+    },
   },
 
   -- markdown
