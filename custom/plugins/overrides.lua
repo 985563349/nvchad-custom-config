@@ -53,7 +53,7 @@ M.mason = {
     "html-lsp",
     "typescript-language-server",
     "vue-language-server",
-    "eslint",
+    "eslint-lsp",
     "pritter",
     "json-lsp",
     "tailwindcss-language-server",
