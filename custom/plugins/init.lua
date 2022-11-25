@@ -40,6 +40,7 @@ return {
 	},
 
 	["folke/trouble.nvim"] = {
+		cmd = "TroubleToggle",
 		requires = "kyazdani42/nvim-web-devicons",
 		config = function()
 			require("trouble").setup()
@@ -47,8 +48,16 @@ return {
 	},
 
 	["ggandor/leap.nvim"] = {
+		after = "nvim-lspconfig",
 		config = function()
 			require("leap").add_default_mappings()
+		end,
+	},
+
+	["ggandor/flit.nvim"] = {
+		after = "leap.nvim",
+		config = function()
+			require("flit").setup()
 		end,
 	},
 
