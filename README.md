@@ -90,10 +90,16 @@ Mason 可以轻松管理如 LSP 服务器、DAP 服务器、Linter 和格式化�
 
 #### Trouble
 
-一个漂亮的诊断列表。
+漂亮的诊断列表。
 
 有关插件的详情，请参阅[README.md](https://github.com/folke/trouble.nvim)。
 
 ##### 常用命令
 
 - `:Trouble`：打开诊断列表
+
+#### Leap
+
+Neovim 的光标快速移动插件。
+
+有关插件的详情，请参阅[README.md](https://github.com/ggandor/leap.nvim)。
